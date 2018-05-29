@@ -1,7 +1,7 @@
 # Shell-Script-Master
 Some useful code for shell script
 
-### Compare
+### Compare number
 ```sh
 #!/bin/bash
 
@@ -43,4 +43,10 @@ sh your-script.sh &>/dev/null &
 echo $$ > /tmp/nameofscript.pid
 #kill script with PID
 kill -9 PID
+```
+### Replace some character in string
+```sh
+str=giang@gmail.com
+username="${str//@gmail.com}"
+echo "$username" #giang
 ```
