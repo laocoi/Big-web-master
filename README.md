@@ -1,3 +1,8 @@
+# Copy file to another server
+```sh
+scp -i /mnt/rsa -P portnumber -r /fromfolder root@xxx.xx.xx.xx:/tofolder
+#Create RSA with command: ssh-keygen -t rsa
+```
 # Shell-Script-Master
 Some useful code for shell script
 
