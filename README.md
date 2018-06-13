@@ -42,6 +42,10 @@ fi
 ```sh
 sh your-script.sh &>/dev/null &
 ```
+### Check script is running
+```sh
+pgrep -fl script.sh
+```
 ### Kill script is running in background
 ```sh
 #insert this row at top of script after #!bin/bash, it will export PID in tmp folder
