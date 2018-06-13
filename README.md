@@ -45,6 +45,7 @@ sh your-script.sh &>/dev/null &
 ### Check script is running
 ```sh
 pgrep -fl script.sh
+#If script is not running - nothing happend when you enter, if it's running, screen echo PID
 ```
 ### Kill script is running in background
 ```sh
